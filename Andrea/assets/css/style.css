@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+
+}
+body {
+overflow: hidden;
+  margin: 0;
+  background-color: #ffffff; 
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(88,0, 153, 42%); 
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding:10px 20px;
+  height: 100px;
+
+}
+
+.logoizq img {
+
+  display: flex;
+  padding: 40px;    
+
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+padding-right: 5%;
+  gap: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.navbar a.active {
+  font-weight: 700;
+  text-shadow: 0 0 8px white;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+
+.navbar a:hover {
+  text-shadow: 0 0 8px white;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+.footer {
+  background-color: #744379; /* morado */
+  color: #ffffff;
+  padding: 60px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 60px;
+}
+
+/* Logo */
+.footer-logo {
+  text-align: center;
+  color: #e8d4eb;
+}
+
+.footer-logo img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-logo h2 {
+  font-size: 42px;
+  margin: 0;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-logo p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Secciones */
+.footer-section h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.footer-section p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+/* QR */
+.qr {
+  margin-top: 10px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
