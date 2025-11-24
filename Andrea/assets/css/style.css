@@ -127,7 +127,7 @@ a{
     justify-content: center;
     /* Si tienes la imagen de fondo, la puedes aplicar aquí */
     background-color: #f5f4f0; /* Color base si la imagen de fondo no carga */
-    background-image: url('assets/img/fondopapel.png'); /* La textura de papel */
+    background-image: url('../img/fondopapel.png'); /* La textura de papel */
     background-size: cover;
     min-height: 400px; /* Altura mínima para que el fondo se vea bien */
 }
