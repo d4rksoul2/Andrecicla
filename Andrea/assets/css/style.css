@@ -228,3 +228,8 @@ a{
         max-width: 300px;
     }
 }
+
+.carruselprincipal {
+max-width: 100%;
+height: auto;
+}
