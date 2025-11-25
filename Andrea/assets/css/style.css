@@ -55,8 +55,9 @@ body {
   padding-bottom: 3px;
 }
 
+
 .footer {
-  background-color: #744379; /* morado */
+  background-color: #744379; 
   color: #ffffff;
   padding: 60px 40px;
   font-family: "Montserrat", sans-serif;
@@ -78,7 +79,7 @@ body {
     height: 70px;
      background-color: rgb(88,0, 153, 42%) !important;
      border-radius: 11px;
-      top: 80%;          /* posición vertical */
+      top: 80%;          
     transform: translateY(-50%);
    
 }
@@ -89,6 +90,48 @@ body {
 .carousel-control-next {
     right: 0;
 }
+
+.btn1-position {
+  bottom: 170px;      
+  left: 20%;        
+  transform: translateX(-47%); 
+}
+
+
+.btn2-position {
+  bottom: 100px;    
+  left: 50%;         
+  transform: translateX(-122%);
+}
+
+
+.btn3-position {
+  bottom: 220px;      
+  right: 20%;       
+  transform: translateX(-38%);
+}
+
+/* Estilo general de todos los botones */
+.btn-carrusel {
+  background-color: #E6D9EE;
+  color: #75427F;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+    box-shadow: 0px 1px 10px 3px rgba(117, 66, 127, 0.5); /* color semitransparente */
+}
+
+.btn-carrusel:hover {
+  background-color: #501d77;
+  color: #ffffff;;
+  transform: scale(1.05);
+  box-shadow: 0px 1px 10px 3px rgba(39, 22, 42, 0.5); 
+}
+
+
 /* Logo footer */
 
 .logofooter {
