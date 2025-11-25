@@ -266,6 +266,8 @@ a{
  justify-content: center;
 }
 .imgbannermorado2 {
-  padding-left: 300px;
-
+  padding-left: 200px;
+  padding-top: 30px;
+  width: auto;
+  height: 320px;
 }
