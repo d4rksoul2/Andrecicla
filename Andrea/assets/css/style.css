@@ -131,6 +131,11 @@ body {
 }
 
 
+
+
+
+
+
 /* Logo footer */
 
 .logofooter {
@@ -595,7 +600,6 @@ hr{
 .titulo {
   margin: 50px;
   text-align: center;
-  width: 100%;
 }
 
 .contenedorBlanco {
@@ -614,7 +618,7 @@ hr{
 }
 
 .margenMorado img {
-    width: 180px;
+    width: auto;
 }
 
 .textoCarrito h2 {
@@ -717,7 +721,7 @@ hr{
 .btn-close-custom {
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 50px;
     background: #e7d6f5;     
     color: #6b249b;         
     border: 2px solid #b48adf;
@@ -743,21 +747,8 @@ hr{
     position: relative;
 }
 
-
-
-/* Responsive */
-@media (max-width: 900px) {
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-a{
-  text-decoration: none;
-  color: white;
-}
-.logofooter {
-  width: 500px;
+.col-md-6{
+  padding: 51px;
 }
 
 /* ------------------------------------carrusel------------------------------------ */
