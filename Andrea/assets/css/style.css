@@ -731,11 +731,11 @@ hr{
     background: #e7d6f5;     
     color: #6b249b;         
     border: 2px solid #b48adf;
-    width: 35px;
-    height: 35px;
+    width: 68px;
+    height: 65px;
     border-radius: 10px;     
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight:100;
     cursor: pointer;
     display: flex;
     align-items: center;
