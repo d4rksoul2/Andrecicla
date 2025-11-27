@@ -581,3 +581,227 @@ hr{
     .owl-nav .owl-prev { left: -10px; }
     .owl-nav .owl-next { right: -10px; }
 }
+
+
+
+/* ------------------------------------DANIEL------------------------------------ */
+
+
+
+
+
+
+
+.titulo {
+  margin: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.contenedorBlanco {
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+
+.contenedorBlanco .container {
+    background: #ffff;
+    border: 3px solid #744379;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+
+.margenMorado img {
+    width: 180px;
+}
+
+.textoCarrito h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.textoCarrito h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.textoCarrito h4 {
+    font-size: 22px;
+    color: #d97706; 
+    font-weight: 700;
+}
+
+.botonCompra1 {
+        
+    width: 100%;
+    max-width: 900px;   
+    margin: 0 auto;     
+}
+
+
+.botonCompra1 .btn {
+    background-color: #b894ed;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.botonCompra1 .btn:hover {
+    background-color: #9d74e1;
+}
+
+.botonCompra2 {
+    text-align: center;
+    
+}
+
+.botonCompra2 .btn {
+    background-color: #b894ed;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.botonCompra2 .btn:hover {
+    background-color: #9d74e1;
+}
+
+.orange {
+  color: #DD6B4F;
+}
+
+.contenedorBlanco2 {
+    background: white;
+    border: 2px solid #e8e8e8;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.textoCompraCuenta {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textoCompraCuentaOrange h2 {
+    font-size: 22px;
+    color: #d97706;
+    font-weight: 700;
+}
+
+.card {
+    background: transparent; 
+    border: none; 
+    box-shadow: none; 
+    text-align: center; 
+    padding-bottom:20px ;   
+}
+
+.card-body {
+    background: transparent;
+}
+
+.card img {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.btn-close-custom {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #e7d6f5;     
+    color: #6b249b;         
+    border: 2px solid #b48adf;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;     
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.btn-close-custom:hover {
+    background: #d5bdf0;
+    color: #6b249b;
+    transform: scale(1.05);
+}
+
+.contenedorBlanco {
+    position: relative;
+}
+
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.logofooter {
+  width: 500px;
+}
+
+/* ------------------------------------carrusel------------------------------------ */
+
+.carousel-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 10px;
+    scrollbar-width: none;  
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card-item {
+    min-width: 18rem; 
+}
+
+.carousel-btn {
+    pointer-events: auto;
+    background-color: #E6D9EE !important;
+    color: #75427F !important;
+    border: none !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px !important;
+    font-size: 32px !important;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn:hover {
+    background: #9d74e1;
+}
+
