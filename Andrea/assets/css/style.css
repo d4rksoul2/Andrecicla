@@ -603,8 +603,8 @@ hr{
 }
 
 .contenedorBlanco {
-    margin: 30px auto;
-    max-width: 900px;
+    margin: 60px ;
+    max-width:auto;
 }
 
 
@@ -618,12 +618,18 @@ hr{
 }
 
 .margenMorado img {
-    width: auto;
+    width:auto;
+    padding: 30px;
 }
+
 
 .textoCarrito h2 {
     font-size: 24px;
     font-weight: 700;
+    
+}
+.comprando {
+    margin-left: -75px;
 }
 
 .textoCarrito h3 {
@@ -721,7 +727,7 @@ hr{
 .btn-close-custom {
     position: absolute;
     top: 15px;
-    right: 50px;
+    right: 170px;
     background: #e7d6f5;     
     color: #6b249b;         
     border: 2px solid #b48adf;
