@@ -784,21 +784,17 @@ hr{
 }
 
 .carousel-btn {
-    pointer-events: auto;
-    background-color: #E6D9EE !important;
-    color: #75427F !important;
-    border: none !important;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px !important;
-    font-size: 32px !important;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #b894ed;
+    color: white;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
 }
 
 .carousel-btn:hover {
     background: #9d74e1;
 }
-
