@@ -620,8 +620,13 @@ hr{
 }
 
 .margenMorado img {
+<<<<<<< Updated upstream
     width:auto;
     padding: 30px;
+=======
+    margin: 20px;
+    width: 180px;
+>>>>>>> Stashed changes
 }
 
 
