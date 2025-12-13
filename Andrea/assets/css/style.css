@@ -93,25 +93,26 @@ body {
 .slide1 {
   bottom: 170px;      
   left: 20%;        
-  transform: translateX(-47%); 
+  transform: translateX(-40%); 
 }
 
 
 .slide2 {
   bottom: 100px;    
   left: 50%;         
-  transform: translateX(-60%);
+  transform: translateX(-270%);
 }
 
 
 .slide3 {
   bottom: 220px;      
   right: 20%;       
-  transform: translateX(-38%);
+  transform: translateX(-450%);
 }
 
 /* Estilo general de todos los botones */
 .btn-carrusel {
+position: absolute;
   background-color: #E6D9EE;
   color: #75427F;
   border: none;
@@ -137,11 +138,7 @@ body {
 
 .carruselprincipal .carousel-caption {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
+inset:0;
 }
 
 .tituloprincipal {
