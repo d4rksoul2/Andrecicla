@@ -116,6 +116,15 @@ body {
 .lititulo2 {
     padding-left: 50px;
 }
+.slide1:hover {
+      transform: translateX(-40%) scale(1.05);
+}
+.slide2:hover {
+  transform: translateX(-40%) scale(1.05);
+}
+.slide3:hover {
+      transform: translateX(-40%) scale(1.05);
+}
 
 /* Estilo general de todos los botones */
 .btn-carrusel {
@@ -141,11 +150,16 @@ position: absolute;
 
 .carruselprincipal .carousel-item {
   position: relative;
+  
 }
 
 .carruselprincipal .carousel-caption {
   position: absolute;
   inset: 0;
+  pointer-events: none;
+}
+.carruselprincipal .carousel-caption {
+      pointer-events: auto; 
 }
 .tituloprincipal {
   color: #000000;
